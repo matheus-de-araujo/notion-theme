@@ -35,7 +35,7 @@
 ```bash
 
 # Clone este repositório
-$ git clone https://github.com/matheus-de-araujo/menu-hamburger
+$ git clone https://github.com/matheus-de-araujo/notion-theme
 
 ```
 
@@ -45,7 +45,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - **CSS**
 - **HTML**
-- **JavascriptHTML**
+- **Javascript**
+- **Manifest Json v3**
 
 
 ---
