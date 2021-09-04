@@ -1,0 +1,48 @@
+:root {
+    /* Colors */
+    --dark: rgb(29 31 41);
+    --dark-2: rgb(39 41 51);
+    --white: #DAE3FF;
+    --green: hsl(132, 70%, 65%);
+}
+  
+body.dark .notion-frame{
+    background-color: var(--dark) !important;
+}
+
+body.dark .notion-topbar{
+    background-color: var(--dark) !important;
+}
+
+body.dark .notion-table-view{
+    background-color: var(--dark) !important;
+}
+
+body.dark .notion-sidebar-container{
+    background-color: var(--dark-2) !important;
+}
+
+[style*='background: rgba(55, 60, 63, 1);'] {
+    background-color: var(--dark-2) !important;
+}
+
+body.dark .notion-table-view-header-cell,.notion-table-view-add-row notion-focusable{
+    background-color: var(--dark) !important;
+    color: var(--white);
+}
+
+body.dark .notion-app-inner{
+    color: var(--white) !important;
+}
+    
+body.dark .notion-sidebar{
+    color:var(--white);
+}
+
+[style*='background: rgb(47, 52, 55);'] {
+    background: var(--dark) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--green) !important;
+}

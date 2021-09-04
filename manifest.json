@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "version": "0.0.1",
+    "name": "Notion Theme",
+    "author": "Matheus de Araujo Oliveira",
+    "description": "Um tema dark para o Notion.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.notion.so/*"
+            ],
+            "css": ["style.css"],
+            "js": ["script.js"]
+        }
+    ],
+    "action": {
+        "default_title": "Notion Theme",
+        "default_popup": "index.html",
+        "default_icon": "icon.png"
+    }
+}

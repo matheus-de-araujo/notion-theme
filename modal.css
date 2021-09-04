@@ -1,0 +1,31 @@
+:root {
+    --black: rgb(29 31 41);
+    --green: hsl(132, 70%, 65%);
+}
+
+html, body {
+    background-color: var(--black);
+}
+
+.container {
+    display: flex;
+    width: 180px;
+    height: 100px;
+    padding: 10px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: white;
+}
+
+button {
+    border: none;
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: var(--green);
+}
