@@ -7,7 +7,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.notion.so/*"
+                "<all_urls>"
             ],
             "css": ["style.css"],
             "js": ["script.js"]
