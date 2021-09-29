@@ -38,6 +38,7 @@
 $ git clone https://github.com/matheus-de-araujo/notion-theme
 
 ```
+#### Para testar a aplicação instale a extensão diretamente da Chrome Web Store clicando [aqui](https://chrome.google.com/webstore/detail/notion-theme/olefdafjpbgbadodlogiecloeogkjhdo?hl=en-US).
 
 ## 🛠 Tecnologias
 
